@@ -27,3 +27,10 @@ public class JewelsAndStones_771 {
 		return chkJ;
 	}
 }
+
+/*
+ 	// 이런식의 코드 구성을 통해 1줄로 처리 가능 (출처 : LeetCode  토론 게시판)
+	public int numJewelsInStones(String J, String S) {
+		return S.replaceAll("[^" + J + "]", "").length();
+	}
+*/
