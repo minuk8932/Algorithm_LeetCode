@@ -53,7 +53,7 @@ public class HammingDistance_461 {
 }
 
 /*
- * 		수학적 접근 (이산수학)
+ * 		수학적 접근 (이산수학, 출처 : Leet Code 토론 게시판)
  *		public class Solution {
  *   		public int hammingDistance(int x, int y) {
  *       		return Integer.bitCount(x ^ y);				// XOR 연산
